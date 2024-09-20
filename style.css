@@ -1,0 +1,52 @@
+body{
+    background-image:url(./imagenes/fondo\ de\ cocina.jpg);
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    
+}
+img{
+    width: 150px;
+}  
+p{
+    background-color:rgb(255, 255, 255);
+    margin-top: 250px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 250px;
+}
+
+.postres{
+    margin-left: 70px;
+}
+.libros{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 400px;
+    margin-left: 70px;
+}
+.imagen{
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+    border-radius: 50px;
+}
+.torta{
+    background: none;
+}
